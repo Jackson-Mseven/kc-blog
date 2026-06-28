@@ -1,0 +1,5 @@
+{
+  "openai.apiKey": "sk-74ca259d34d94ec6bb37074f0957d83f",
+  "openai.baseURL": "https://api.deepseek.com/v1",
+  "openai.model": "deepseek-chat"
+}
