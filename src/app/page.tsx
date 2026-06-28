@@ -85,9 +85,9 @@ function PostListItem({ post }: { post: PostMeta }) {
   );
 }
 
-export default function Home() {
-  const featured = getFeaturedPosts();
-  const recent = getAllPosts();
+export default async function Home() {
+  const featured = await getFeaturedPosts();
+  const recent = await getAllPosts();
 
   return (
     <div className="flex min-h-screen flex-col">
